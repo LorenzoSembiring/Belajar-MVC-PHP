@@ -5,7 +5,7 @@
 class Controller{
 function index(){
    $data['nama']= model->getNama();
-   $data['nik']= model->getNim();
+   $data['nim']= model->getNim();
    view->index($data);
   }
  }
