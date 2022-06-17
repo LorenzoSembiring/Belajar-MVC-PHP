@@ -1,4 +1,4 @@
 <?php
  include("controller/controller.php");
- controller_pegawai->index();
+ controller->index();
 ?>
