@@ -1,5 +1,5 @@
 <?php
- include("model.php");
+ include("./model/model.php");
  include("view.php");
  
 class Controller{
