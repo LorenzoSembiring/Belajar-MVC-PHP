@@ -1,4 +1,5 @@
 <?php
- include("controller/controller.php");
- controller->index();
+include("controller/controller.php");
+    $control = new controller;
+    $control->index();
 ?>
