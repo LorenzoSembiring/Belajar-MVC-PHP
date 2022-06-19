@@ -2,7 +2,7 @@
 class model
 {
      protected $nama = ['Rizky Agung Prayogi', 'Fadel Ahmad', 'Lorenzo Laridho Sembiring', 'Haikal Hanis'];
-     protected $nim = [1201200027, 1201200028, 1201200029, 1201200030];
+     protected $nim = [1201200027, 1201200028, 1201200023, 1201200030];
      public function getNama()
      {
           return $this->nama;
