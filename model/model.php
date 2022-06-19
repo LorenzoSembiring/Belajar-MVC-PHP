@@ -1,18 +1,22 @@
 <?php
-class model{
+class model
+{
+     protected $nama = ['Rizky Agung Prayogi', 'Fadel Ahmad', 'Lorenzo Laridho Sembiring', 'Haikal Hanis'];
+     protected $nim = [1201200027, 1201200028, 1201200029, 1201200030];
+     public function getNama()
+     {
+          return $this->nama;
+     }
 
-    function getNama(){
-           return "Rizky Agung Prayogi";
-           return "Lorenzo Laridho Sembiring";
-           return "Fadel Muhammad";
-           return "Haikal Hanis";
-      }
-
-      function getNim(){
-           return "1201200027";
-           return "1201200028";
-           return "1201200029";
-           return "1201200030";
-      }
-  
- }
+     public function getNim()
+     {
+          return $this->nim;
+     }
+     
+     public function setNama(string $nama){
+          $this->nama = $nama;
+     }
+     public function setNim(string $nim){
+          $this->nim = $nim;
+     }
+}
