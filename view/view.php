@@ -1,7 +1,7 @@
 <?php
 class view
 {
-    function index($nama, $nim)
+    function index($nama, $nim, $aksi)
     {
 ?>
 
@@ -19,7 +19,7 @@ class view
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-4">
-                        <table class="table">
+                        <table class="table shadow-lg">
                             <thead>
                                 <tr>
                                     <th>
@@ -27,6 +27,9 @@ class view
                                     </th>
                                     <th>
                                         Nim
+                                    </th>
+                                    <th>
+                                        Aksi
                                     </th>
                                 </tr>
                             </thead>
@@ -36,6 +39,9 @@ class view
                                 </td>
                                 <td>
                                     <?= $nim ?>
+                                </td>
+                                <td>
+                                    <?= $aksi?>
                                 </td>
                             </tbody>
                         </table>
@@ -47,5 +53,7 @@ class view
 
         </html>
 
-<?php }
-} ?>
+<?php
+    }
+}
+?>
