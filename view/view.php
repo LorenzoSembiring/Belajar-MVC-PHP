@@ -1,7 +1,7 @@
 <?php
 class view
 {
-    function index($nama, $nim, $aksi)
+    function index($nama, $nim)
     {
 ?>
 
@@ -41,7 +41,7 @@ class view
                                     <?= $nim ?>
                                 </td>
                                 <td>
-                                    <?= $aksi?>
+                                    <button class="btn btn-primary">Edit</button>
                                 </td>
                             </tbody>
                         </table>
